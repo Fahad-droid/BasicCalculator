@@ -1,0 +1,14 @@
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\Bin\Debug\Background.png
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\Bin\Debug\com.dynamicsoftwares.BasicCalculator.dll
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\Bin\Debug\com.dynamicsoftwares.BasicCalculator.pdb
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\obj\Debug\com.dynamicsoftwares.BasicCalculator.g.resources
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\obj\Debug\com.dynamicsoftwares.BasicCalculator.dll
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\obj\Debug\com.dynamicsoftwares.BasicCalculator.pdb
+C:\Users\sourabh\Desktop\AllAndroidApps\BasicCalculator\platforms\wp8\obj\Debug\XapCacheFile.xml

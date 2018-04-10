@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=2, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+		
+		<link rel="stylesheet" href="lib/jquery-mobile/css/jquery.mobile-1.4.0.min.css" />
+		<script type="text/javascript" src="lib/jquery-mobile/js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="lib/jquery-mobile/js/jquery.mobile-1.4.0.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+		function Add(){
+				var number1=document.getElementById("tb1").value;
+				var number2=document.getElementById("tb2").value;
+				document.getElementById("Answer").innerHTML="Addition: "+(Number(number1)+Number(number2));
+		}
+		function Sub(){
+				var number1=document.getElementById("tb1").value;
+				var number2=document.getElementById("tb2").value;
+				document.getElementById("Answer").innerHTML="Subtraction: "+(Number(number1)-Number(number2));
+		}
+		function Multi(){
+				var number1=document.getElementById("tb1").value;
+				var number2=document.getElementById("tb2").value;
+				document.getElementById("Answer").innerHTML="Multiplication:"+(Number(number1)*Number(number2));
+		}
+		function Div(){
+				var number1=document.getElementById("tb1").value;
+				var number2=document.getElementById("tb2").value;
+				document.getElementById("Answer").innerHTML="Division:"+(Number(number1)/Number(number2));
+		}
+	</script>
+        <title>Basic Calculator By Sourabh Somani</title>
+    </head>
+    <body>
+		<div data-role="page" id="Home">
+			<div data-role="header" data-position="fixed">
+				<h1>Main Menu</h1>
+			</div>
+
+			<div role="main" class="ui-content" id="home-content">
+				<table width="100%">
+					<tr>
+						<td width="50%" style="text-align:center">
+							<a href="#Calculator" data-transition="slide" style="text-decoration:none;color:#000000">
+								<img src="img/Calculator.png" width="70px" height="70px"/><br/>
+								Calculator
+							</a>
+						</td>
+						<td width="50%" style="text-align:center">
+							<a href="#About" data-transition="slide" style="text-decoration:none;color:#000000">
+								<img src="img/About.png" width="70px" height="70px"/><br/>
+								About
+							</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		<div data-role="page" id="About">
+			<div data-role="header" data-position="fixed">
+				<h1>About Calculator</h1>
+				<a href="#Home" data-transition="slide" data-direction="reverse" data-icon="arrow-l" class="ui-btn-left">Back</a>
+			</div>
+
+			<div role="main" class="ui-content" id="home-content">
+				<h3>This calculator is designed by Sourabh Somani.<br/><br/>
+					<address>
+						sourabh_somani2010@hotmail.com<br/>
+					</address>
+				</h3>
+			</div>
+		</div>
+		
+		<div data-role="page" id="Calculator">
+			<div data-role="header" data-position="fixed">
+				<h1>Calculator</h1>
+				<a href="#Home" data-transition="slide" data-direction="reverse" data-icon="arrow-l" class="ui-btn-left">Back</a>
+			</div>
+
+			<div role="main" class="ui-content" id="home-content">
+				<label for="tb1">1st Number</label><input type="number" id="tb1" placeholder="Enter 1st Number"/>
+				<label for="tb2">2nd Number</label><input type="number" id="tb2" placeholder="Enter 2nd Number"/>
+				<label id="Answer" for="Answer"></label>
+				<button id="Add" onclick="Add()"> ADD </button> 
+				<button id="SUB" onclick="Sub()"> SUB </button> 
+				<button id="MULTIPLICATION" onclick="Multi()"> MULTIPLICATION </button> 
+				<button id="DIVISION" onclick="Div()"> DIVISION </button>
+			</div>
+		</div>
+		
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
